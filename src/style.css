@@ -48,6 +48,12 @@ body {
 }
 
 .scores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  list-style: none;
   align-self: flex-start;
   flex-direction: column;
 }
@@ -95,4 +101,13 @@ body {
   justify-content: center;
   flex-direction: column;
   margin-left: 12px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 18px;
+  border-bottom: 2px solid #333;
+  width: 100%;
 }
