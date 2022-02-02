@@ -5,5 +5,94 @@
 }
 
 body {
-  background-color: aqua;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  margin-left: 174px;
+  font-size: 55px;
+}
+
+.scores-heading-button {
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scores-container {
+  width: 500px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid #333;
+  margin-left: 12px;
+}
+
+.btn {
+  padding: 2px 12px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.scores {
+  align-self: flex-start;
+  flex-direction: column;
+}
+
+.details {
+  padding: 12px 14px;
+  margin: 5px 0;
+  display: block;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-control {
+  padding: 8px;
+  width: 400px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.add-btn {
+  align-self: flex-end;
+  margin: 5px;
+  padding: 2px 12px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.recent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.adding-score {
+  width: 500px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 12px;
 }
