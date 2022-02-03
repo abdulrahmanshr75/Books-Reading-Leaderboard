@@ -18,17 +18,17 @@ git clone [url](https://github.com/abdulrahmanshr75/Leaderboard-project.git)
 cd into the folder
 
 install all the packages needed by this command :
-
+``````
 npm install
-
+``````
 you can run this website on live server port 8080 by this command :
-
+```
 npm run start
-
+```
 to build the project run :
-
+```
 npm run build
-
+```
 ## Author
 
 👤 Abdulrahman Shrshar
